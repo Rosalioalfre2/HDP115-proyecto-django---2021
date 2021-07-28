@@ -1,0 +1,119 @@
+body {
+    background: url(../img/Fondo.jpg) no-repeat center top;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.Banner-box{
+    top: 0px;
+    background-color: #22E173;
+    padding: 5px;
+    margin: 3px;
+    border : #14670B solid 3px;
+    border-radius: 5px;
+    height: 50px;
+}
+
+.gestion_box{
+    width: 470px;
+    height: 450px;
+    background-color: #22E173;
+    border : #14670B solid 3px;
+    border-radius: 20px;
+    position: relative;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 25px;
+    padding-left: 25px;
+}
+  
+input.btn_01{
+    background-color: lightblue;
+    position: absolute;
+    font-size: 18px;
+    display: block;
+    width: 150px;
+    height: 30px;
+    top: 25px;
+}
+
+h1 {
+    position: absolute;
+    left: 40px;
+    top: 15px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+img.imagen_perfil{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -130%);
+    border : #FFFFFF solid 8px;
+    border-radius: 50%;
+    position: absolute;
+  
+}
+
+input.btn_02{
+    display: flex;
+    position: absolute;
+    margin-right: 500px;
+    width: 470px;
+    height: 50px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 100%);
+    background-color: lightblue;
+    font-size: 22px;
+    font-weight: bold;
+    font-family:  "Lucida Console", Monaco, monospace;
+    letter-spacing: -0.2px;
+    word-spacing: 1.4px;
+    color: #444444;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: italic;
+    font-variant: small-caps;
+    text-transform: uppercase;
+}
+
+#titulo {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 27px;
+    letter-spacing: -0.2px;
+    word-spacing: 1.4px;
+    color: #FFFFFF;
+    font-weight: 700;
+    top: 9px;
+    text-decoration: none;
+    font-style: italic;
+    font-variant: small-caps;
+    text-transform: uppercase;
+}
+
+#btn_estadisticas{
+  right: 25px;
+}
+
+#btn_logout{
+  right: 210px;
+}
+
+
+#registrar_paciente{
+  top: 275px;
+}
+
+#actualizar_info_paciente{
+  top: 350px;
+}
+
+#eliminar_paciente{
+  top: 425px;
+}

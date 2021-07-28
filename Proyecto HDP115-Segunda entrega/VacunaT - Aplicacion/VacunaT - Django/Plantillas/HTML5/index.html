@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+{% load static %}
+
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Página de inicio</title>
+    <link rel="stylesheet" href="{% static 'css/index.css' %}">
+  </head>
+  <body>
+    <div class="Banner-box">
+      <h1 id="titulo">Vacunación COVID-19</h1>
+      
+      <a href="{% url 'home' %}"><input type="button" class="btn_01" id="btn_estadisticas" value="Ver estadísticas"></a>
+      
+      <a href="{% url 'logout' %}"><input type="button" class="btn_01" id="btn_logout" value="Cerrar sesion"></a>
+    </div>
+
+    <div class="gestion_box">
+      <img src="{% static 'img/doctor.jpg' %}" alt="doctor chopper" class="imagen_perfil">
+      
+      <a href="{% url 'ingresarpaciente' %}"><input type="submit" class="btn_02" id="registrar_paciente" value="Registrar paciente"></a>
+      
+      <a href="{% url 'listado' %}"><input type="submit" class="btn_02" id="actualizar_info_paciente" value="Gestionar registros"></a>
+      
+    
+    </div>
+  </body>
+</html>

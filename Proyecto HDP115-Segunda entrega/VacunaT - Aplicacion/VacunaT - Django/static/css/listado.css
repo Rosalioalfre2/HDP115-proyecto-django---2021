@@ -1,0 +1,227 @@
+body {
+    background: url(../img/Fondo.jpg) no-repeat center top;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.Banner-box{
+    top: 0px;
+    background-color: #22E173;
+    padding: 5px;
+    margin: 3px;
+    border : #14670B solid 3px;
+    border-radius: 5px;
+    height: 50px;
+}
+
+
+.listado_box{
+    width: fit-content;
+    height: fit-content;
+    background-color: rgba(0, 255, 0, 0.25);
+    border : #14670B solid 3px;
+    border-radius: 20px;
+    position: relative;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 25px;
+    padding-left: 25px;
+}
+
+table.redTable {
+  margin-top: 45px;
+  margin-bottom: 45px;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  border: 2px solid #ADD8E6;
+  background-color: #95F5B1;
+  width: 98%;
+  text-align: center;
+  border-collapse: collapse;
+}
+table.redTable td, table.redTable th {
+  border: 1px solid #AAAAAA;
+  padding: 3px 6px;
+}
+table.redTable tbody td {
+  font-size: 17px;
+}
+table.redTable tr:nth-child(even) {
+  background: #B5F5D2;
+}
+table.redTable thead {
+  background: #ADD8E6;
+}
+table.redTable thead th {
+  font-size: 20px;
+  font-weight: normal;
+  color: #212121;
+  text-align: center;
+  border-left: 2px solid #ADD8E6;
+}
+table.redTable thead th:first-child {
+  border-left: none;
+}
+
+table.redTable tfoot {
+  font-size: 13px;
+  font-weight: bold;
+  color: #FFFFFF;
+  background: #ADD8E6;
+}
+table.redTable tfoot td {
+  font-size: 13px;
+}
+table.redTable tfoot .links {
+  text-align: right;
+}
+table.redTable tfoot .links a{
+  display: inline-block;
+  background: #FFFFFF;
+  color: #212121;
+  padding: 2px 8px;
+  border-radius: 5px;
+}
+
+img.img_editar{
+    height: 80px;
+    width: 80px;
+    margin-top: -85px;
+    position: absolute;
+    border : #FFFFFF solid 5px;
+    border-radius: 30%;
+    position: absolute;
+ }
+  
+input.btn_01{
+	background-color: lightblue;
+	position: absolute;
+	font-size: 18px;
+	display: block;
+	width: 150px;
+	height: 30px;
+	top: 25px;
+}
+
+input.btn_02{
+    display: flex;
+    position: absolute;
+    margin-right: 500px;
+    width: 470px;
+    height: 50px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 400%);
+    background-color: lightblue;
+    font-size: 22px;
+    font-weight: bold;
+    font-family:  "Lucida Console", Monaco, monospace;
+    letter-spacing: -0.2px;
+    word-spacing: 1.4px;
+    color: #444444;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: italic;
+    font-variant: small-caps;
+    text-transform: uppercase;
+}
+
+h1 {
+    position: absolute;
+    left: 40px;
+    top: 15px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+h3{
+	margin-top: 10px;
+	margin-left: 8%;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 27px;
+	letter-spacing: -0.2px;
+	word-spacing: 1.4px;
+	color: #FFFFFF;
+	font-weight: 700;
+	text-decoration: none;
+	font-style: italic;
+	font-variant: small-caps;
+	text-transform: uppercase;
+}
+
+#titulo {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 27px;
+	letter-spacing: -0.2px;
+	word-spacing: 1.4px;
+	color: #FFFFFF;
+	font-weight: 700;
+	top: 9px;
+	text-decoration: none;
+	font-style: italic;
+	font-variant: small-caps;
+	text-transform: uppercase;
+}
+
+#btn_estadisticas{
+	right: 25px;
+}
+
+#btn_logout{
+	right: 210px;
+}
+
+#btn_regresar{
+	right: 395px;
+}
+
+
+.boton{
+            text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
+            text-align:center;
+            text-decoration: none;
+            font-family: 'Helvetica Neue', Helvetica, sans-serif;
+            display:inline-block;
+            color: #FFF;
+            background: #7F8C8D;
+            padding: 7px 20px;
+            white-space: nowrap;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            border-radius: 100px;
+            margin: 10px 5px;
+            -webkit-transition: all 0.2s ease-in-out;
+            -ms-transition: all 0.2s ease-in-out;
+            -moz-transition: all 0.2s ease-in-out;
+            -o-transition: all 0.2s ease-in-out;
+            transition: all 0.2s ease-in-out;
+}
+
+.azul{
+  background: #3498DB;
+  box-shadow: 0px 5px 0px 0px #2980B9;
+}
+
+.azul:hover{
+  background: #39a0e5;
+}
+
+.azul:active{
+  box-shadow: 0px 2px 0px 0px #2980B9;
+}
+
+.rojo{
+  background: #E74C3C;
+  box-shadow: 0px 5px 0px 0px #C0392B;
+}
+
+.rojo:hover{
+  background: #ff5242;
+}
+
+.rojo:active{
+  box-shadow: 0px 2px 0px 0px #C0392B;
+}
+
+

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+{% load static %}
+
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Editar registros</title>
+	<link rel="stylesheet" href="{% static 'css/CRUD.css' %}">
+</head>
+<body>
+
+	<div class="Banner-box">
+      <h1 id="titulo">Vacunación COVID-19</h1>
+      
+      <a href="{% url 'home' %}"><input type="button" class="btn_01" id="btn_estadisticas" value="Ver estadísticas"></a>
+      
+      <a href="{% url 'logout' %}"><input type="button" class="btn_01" id="btn_logout" value="Cerrar sesion"></a>
+
+      <a href="{% url 'index' %}"><input type="submit" class="btn02" id="btn_regresar" value="Regresar"></a>
+    </div>
+
+    <div class="gestion_box">
+		<h3>Editar registro</h3>
+
+		<img src="{% static 'img/edit.png' %}" alt="editar" class="img">  
+
+		<fieldset id="form">
+			<form method="POST">
+			{% csrf_token %}
+			{{form.as_p}}
+			<button id="btn_enviar" type="submit">Guardar datos</button>
+			</form>
+		</fieldset>
+
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,171 @@
+body {
+    background: url(../img/Fondo.jpg) no-repeat center top;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.Banner-box{
+    top: 0px;
+    background-color: #22E173;
+    padding: 5px;
+    margin: 3px;
+    border : #14670B solid 3px;
+    border-radius: 5px;
+    height: 50px;
+}
+
+.gestion_box{
+    width: fit-content;
+    height: 631px;
+    background-color: rgba(0, 255, 0, 0.25);
+    border : #14670B solid 3px;
+    border-radius: 20px;
+    position: relative;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 25px;
+    padding-left: 25px;
+}
+
+#btn_enviar{
+
+    text-decoration: none;
+    padding: 8px;
+    font-weight: 500;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #1883ba;
+    border-radius: 6px;
+    border: 2px solid;
+    margin-left: 140px;
+  }
+
+#btn_enviar:hover{
+    color: #1883ba;
+    background-color: #ffffff;
+  }
+
+
+img.img{
+    height: 80px;
+    width: 80px;
+    margin-top: -85px;
+    position: absolute;
+    border : #FFFFFF solid 5px;
+    border-radius: 30%;
+    position: absolute;
+ }
+
+  
+input.btn_01{
+	background-color: lightblue;
+	position: absolute;
+	font-size: 18px;
+	display: block;
+	width: 150px;
+	height: 30px;
+	top: 25px;
+}
+
+h1 {
+    position: absolute;
+    left: 40px;
+    top: 15px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#titulo {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 27px;
+	letter-spacing: -0.2px;
+	word-spacing: 1.4px;
+	color: #FFFFFF;
+	font-weight: 700;
+	top: 9px;
+	text-decoration: none;
+	font-style: italic;
+	font-variant: small-caps;
+	text-transform: uppercase;
+}
+
+#btn_estadisticas{
+	right: 25px;
+}
+
+#btn_logout{
+	right: 210px;
+}
+
+#btn_regresar{
+	right: 395px;
+}
+
+#btn_confirmar{
+	top: 160px;
+	left: 210px;
+}
+
+#btn_cancelar{
+	top: 160px;
+	left: 395px;
+
+}
+
+h3{
+	margin-top: 10px;
+	margin-left: 8%;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 27px;
+	letter-spacing: -0.2px;
+	word-spacing: 1.4px;
+	color: #FFFFFF;
+	font-weight: 700;
+	text-decoration: none;
+	font-style: italic;
+	font-variant: small-caps;
+	text-transform: uppercase;
+}
+
+h4{
+	margin-top: 10px;
+	margin-left: 8%;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 25px;
+	letter-spacing: -2px;
+	word-spacing: 2.4px;
+	color: #161616;
+	font-weight: normal;
+	text-decoration: none;
+	font-style: normal;
+	font-variant: small-caps;
+	text-transform: uppercase;
+
+}
+
+.django{
+	position: absolute;
+	top: 40px;
+	left: 30px;
+	margin-bottom: 10px;
+}
+
+input.btn02{
+	background-color: lightblue;
+	position: absolute;
+	font-size: 18px;
+	display: block;
+	width: 150px;
+	height: 30px;
+	top: 25px;
+}
+
+#form {
+    border:5px solid #FFFFFF;
+    border-radius: 20px;
+    width:450px;
+    height: 450px;
+    margin:auto;
+}

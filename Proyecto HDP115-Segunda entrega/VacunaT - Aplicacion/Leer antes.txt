@@ -1,0 +1,36 @@
+-----------------------------------------------------------------------
+		Informacion antes de usar la aplicacion
+-----------------------------------------------------------------------
+
+
+Para correr la aplicacion primero debe crear una base de datos 
+llamada "VacunaT" en MySQL y luego con el script que hemos adjuntado en la 
+carpeta "Script generador de modelo de base de datos - MySQL" correrlo en Query
+para generar la base de datos que contiene los pacientes, administradores,
+departamentos, municipios, etc.
+
+
+Luego en la direccion "VacunaT - Django/VacunaT" en el archivo "settings.py" 
+en el apartado de Databases (Linea 67) modificar el 'USER' (Linea 71) y 
+'PASSWORD' (Linea 72) por sus usuarios de MySQL. 
+
+
+Posteriormente, desde la terminal de Debian 8 buscar el archivo "manage.py" que se
+encuentra en el folder "VacunaT - Django" y correr el siguiente comando:
+
+python manage.py createsuperuser
+
+Ese comando le permitira crear un usuario, le pedira el nombre de usuario el cual usted 
+creara, y luego le pedira que ingrese un password y que lo confirme 
+(importante anotar el usuario y contraseña, lo necesita en el login).
+
+
+Cuando el super usuario este creado correr el siguiente comando
+
+python manage.py runserver
+
+
+Finalmente, ir a la direccion web que se le indica en la terminal.
+
+
+
