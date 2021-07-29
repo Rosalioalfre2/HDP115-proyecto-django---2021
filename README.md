@@ -6,3 +6,4 @@ Hice uso de la version 1.7.11 de Django, y de la version 2.7 de Python.
 A mi grupo de trabajo le toco usar Achievo, Bazaar y Mantis Bug Tracker.
 La base de datos usado fue con MySQL, el codigo generador de la base de datos se encuentra en la carpeta de la segunda entrega.
 Es importante configurar Django con tu usuario y contraseña.
+Por requisito de la materia trabaje esto en Debian 8 desde una maquina virtual, en lo personal les recomiendo trabajarlo haciendo dual boot su pc, sera mucho mas rapido.
